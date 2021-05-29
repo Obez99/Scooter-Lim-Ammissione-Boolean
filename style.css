@@ -1,0 +1,101 @@
+body{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+
+}
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+header{
+  text-align: center;
+}
+
+
+h1{
+  color: lime;
+  padding: 10px;
+}
+
+
+h2{
+  margin-bottom:3px;
+}
+
+
+section{
+  margin-top: 30px;
+}
+
+
+body > div{
+  width: 1250px;
+  height: 850px;
+  margin:auto;
+  margin-top: 30px;
+  padding: 100px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 20px;
+  }
+
+
+header > img{
+  width: 25%;
+  margin: 20px;
+}
+
+
+nav > div{
+  border: 15px solid lime;
+  background-color: lime;
+  text-align: center;
+}
+
+
+main{
+  color:white;
+}
+
+
+section > h2:before{
+  content:"\25A0" "\00A0";
+}
+
+
+section span:before{
+  content:"\21A6" "\00A0";
+}
+
+
+section>div:last-child{
+  height: 30px;
+  border-radius: 5px;
+}
+
+section span,div{
+  margin-top: 2px;
+}
+
+
+.giallo{
+  width: 35%;
+  background-color: #ffdb4d;
+}
+
+
+.verde{
+  width: 65%;
+  background-color: #00cc00;
+}
+
+
+.rosso{
+  width: 15%;
+  background-color: #ff3333;
+}
